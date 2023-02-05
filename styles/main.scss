@@ -1,9 +1,6 @@
 //Variables
 $primary-color:white;
-
-@mixin colgroup {
-    background-color: aquamarine;
-}
+$secondary-color:yellow;
 
 .body {
     @include colgroup;
