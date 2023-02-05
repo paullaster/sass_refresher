@@ -2,9 +2,9 @@
 $primary-color:white;
 
 @mixin colgroup {
-    
+    background-color: aquamarine;
 }
 
 .body {
-background-color: $primary-color;
+    @include colgroup;
 }
