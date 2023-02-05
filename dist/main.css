@@ -13,7 +13,7 @@ html {
 
 body {
   background-color: var(--background-color);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto Mono", monospace;
   margin: 0;
   padding: 0;
 }
