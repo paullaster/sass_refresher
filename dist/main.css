@@ -31,4 +31,11 @@ p {
 
 :root {
   --background-color: rgba(0, 0, 0, 0.933);
+}
+
+.grid .grid__main {
+  background-color: hsl(240deg, 100%, 24%);
+}
+.grid .grid__sidebar {
+  background-color: hsl(300deg, 100%, 25%);
 }/*# sourceMappingURL=main.css.map */
