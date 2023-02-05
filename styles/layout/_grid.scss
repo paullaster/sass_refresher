@@ -1,4 +1,5 @@
 .grid{
+    display: grid;
 
     #{&}__main{
         background-color: hsl(240, 100%, 24%);

@@ -33,6 +33,9 @@ p {
   --background-color: rgba(0, 0, 0, 0.933);
 }
 
+.grid {
+  display: grid;
+}
 .grid .grid__main {
   background-color: hsl(240deg, 100%, 24%);
 }
