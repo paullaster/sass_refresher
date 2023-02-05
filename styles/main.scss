@@ -1,6 +1,10 @@
 //Variables
 $primary-color:white;
 
+@mixin colgroup {
+    
+}
+
 .body {
 background-color: $primary-color;
 }
