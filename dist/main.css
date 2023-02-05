@@ -42,6 +42,7 @@ p {
 @media (min-width: 900px) {
   .grid {
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
   }
 }
 .grid .grid__main, .grid .grid__sidebar {
