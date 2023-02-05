@@ -3,5 +3,5 @@ $primary-color:white;
 $secondary-color:yellow;
 
 .body {
-    @include colgroup;
+    background-color: $secondary-color;
 }
