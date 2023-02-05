@@ -1,6 +1,7 @@
 .grid{
     display: grid;
     grid-template-columns: 1fr;
+    gap: 40px !important;
 
     #{&}__main{
         background-color: hsl(240, 100%, 24%);
