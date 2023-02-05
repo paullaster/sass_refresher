@@ -2,6 +2,8 @@
 $primary-color:white;
 $secondary-color:yellow;
 
+@forward 'global';
+
 .body {
     background-color: $secondary-color;
     color: $primary-color;
