@@ -35,6 +35,7 @@ p {
 
 .grid {
   display: grid;
+  grid-template-columns: 1fr;
 }
 .grid .grid__main {
   background-color: hsl(240deg, 100%, 24%);

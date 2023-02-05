@@ -1,5 +1,6 @@
 .grid{
     display: grid;
+    grid-template-columns: 1fr;
 
     #{&}__main{
         background-color: hsl(240, 100%, 24%);
