@@ -19,6 +19,9 @@
 
     #{&}__main{
         background-color: hsl(240, 100%, 24%);
+        @include breakpoint-up(medim){
+            background-color: hsl(120, 100%, 12%);
+        }
     }
     #{&}__sidebar{
         background-color: hsl(300, 100%, 25%);
