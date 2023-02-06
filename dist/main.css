@@ -67,4 +67,9 @@ p {
 }
 .grid .grid__sidebar {
   background-color: hsl(300deg, 100%, 25%);
+}
+@media (max-width: 56.1875em) {
+  .grid .grid__sidebar {
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */
