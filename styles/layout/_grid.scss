@@ -31,5 +31,8 @@
         @include util.breakpoint-down(medium){
             text-align: center;
         }
+        @include util.breakpoint-down(small){
+            text-align: right;
+        }
     }
 }

@@ -82,4 +82,9 @@ p {
   .grid .grid__sidebar {
     text-align: center;
   }
+}
+@media (max-width: 43.6875em) {
+  .grid .grid__sidebar {
+    text-align: right;
+  }
 }/*# sourceMappingURL=main.css.map */
