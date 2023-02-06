@@ -4,6 +4,9 @@ for min-width:
 900px-  56.25em => large screen
 1440px - 90em => xlarge screen
 */
+/*
+for max-width:
+*/
 html {
   font-size: 100%;
   box-sizing: border-box;
