@@ -35,5 +35,7 @@ $breakpoints-down: (
 
 //max-width mixin
 @mixin breakpoint-down($size){
-    
+    @media (max-width: map-get($breakpoints-down, $size)){
+        @content;
+    }
 }
