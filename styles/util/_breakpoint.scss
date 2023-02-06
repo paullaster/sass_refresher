@@ -6,7 +6,7 @@ for min-width:
 1440px - 90em => xlarge screen
 */
 //min-width map:
-$breakpoint-up: (
+$breakpoints-up: (
     'medium': 43.75em,
     'large': 56.25em,
     'xlarge': 90em
@@ -20,8 +20,11 @@ for max-width:
 */
 
 //max-width map:
-$breakpoint-down: (
+$breakpoints-down: (
     'small': 43.6875em,
     "medium": 56.1875em,
     "large": 89.9375em
 );
+
+//min-width mixin
+@mixin break
