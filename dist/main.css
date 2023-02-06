@@ -65,7 +65,7 @@ p {
 .grid .grid__main {
   background-color: hsl(240deg, 100%, 24%);
 }
-@media (min-width: ) {
+@media (min-width: 43.75em) {
   .grid .grid__main {
     background-color: hsl(120deg, 100%, 12%);
   }

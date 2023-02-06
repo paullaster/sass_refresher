@@ -19,7 +19,7 @@
 
     #{&}__main{
         background-color: hsl(240, 100%, 24%);
-        @include util.breakpoint-up(medim){
+        @include util.breakpoint-up(medium){
             background-color: hsl(120, 100%, 12%);
         };
         @include util.breakpoint-up(large){
