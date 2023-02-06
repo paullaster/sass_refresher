@@ -38,6 +38,7 @@ p {
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
   gap: 40px !important;
+  width: min(100% - 40px, 1000px) !important;
 }
 @media (min-width: 900px) {
   .grid {
