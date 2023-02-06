@@ -53,7 +53,7 @@ p {
   width: min(100% - 40px, 1000px) !important;
   margin-inline: auto !important;
 }
-@media (min-width: 900px) {
+@media (min-width: 56.25em) {
   .grid {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto;
