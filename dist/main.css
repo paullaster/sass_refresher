@@ -62,7 +62,7 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
-  gap: util !important;
+  gap: 2.5rem !important;
   width: min(100% - 40px, 1000px) !important;
   margin-inline: auto !important;
 }
