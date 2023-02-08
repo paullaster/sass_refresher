@@ -6,3 +6,11 @@
     }
     @error 'Please provide a unitless value for #{$pixel}';
 }
+
+//Function to convert pixel to em;
+@function rem($pixel){
+    @if math.is-unitless($pixel){
+        @return math.div($pixel, 16) + rem;
+    }
+    @error 'Please provide a unitless value for #{$pixel}';
+}
