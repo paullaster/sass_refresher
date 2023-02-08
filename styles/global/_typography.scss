@@ -1,9 +1,9 @@
 @use '../util/' as util;
 h1{
-    font-size: clamp(32px, 32px + 2vw, 40px);
+    font-size: clamp(util.rem(32), util.rem(32) + 2vw, util.rem(40));
 }
 h2{
-    font-size: clamp(28px, 28px + 2vw, 36px);
+    font-size: clamp(util.rem(28), util.rem(28) + 2vw, util.rem(36));
 }
 h3{
     font-size: clamp(util.rem(24), util.rem(24) + 2vw, util.rem(32));
