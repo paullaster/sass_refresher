@@ -8,9 +8,9 @@ for min-width:
 */
 //min-width map:
 $breakpoints-up: (
-    'medium': 43.75em,
-    'large': 56.25em,
-    'xlarge': 90em
+    'medium': f.em(699),
+    'large': f.em(899),
+    'xlarge': f.em(1439)
 );
 
 /*
