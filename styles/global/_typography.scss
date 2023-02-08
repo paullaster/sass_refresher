@@ -6,7 +6,7 @@ h2{
     font-size: clamp(28px, 28px + 2vw, 36px);
 }
 h3{
-    font-size: clamp(24px, 24px + 2vw, 32px);
+    font-size: clamp(util.rem(24), util.rem(24) + 2vw, util.rem(32));
 }
 h1, 
 h2,
