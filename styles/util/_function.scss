@@ -4,5 +4,5 @@
     @if math.unitless($pixel){
         @return math.div($pixel, 16) + rem;
     }
-    @error '';
+    @error 'Please provide a unitless value for #{$pixel}';
 }
