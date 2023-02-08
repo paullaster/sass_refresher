@@ -14,7 +14,7 @@
     }
 
     #{&}__main, #{&}__sidebar{
-        padding: 40px !important;
+        padding: util.rem(40) !important;
     }
 
     #{&}__main{

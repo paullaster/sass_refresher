@@ -73,7 +73,7 @@ p {
   }
 }
 .grid .grid__main, .grid .grid__sidebar {
-  padding: 40px !important;
+  padding: 2.5rem !important;
 }
 .grid .grid__main {
   background-color: hsl(240deg, 100%, 24%);
